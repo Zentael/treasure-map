@@ -1,0 +1,20 @@
+{
+  "name": "test_carbonit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "treasure_map.js",
+  "scripts": {
+    "test": "jest",
+    "explore": "node ./treasure_map.js",
+    "start": "npm run explore"
+  },
+  "author": "",
+  "license": "ISC",
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
+  "dependencies": {
+    "jest": "^27.2.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
